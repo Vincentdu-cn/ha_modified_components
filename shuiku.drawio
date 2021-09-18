@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T02:36:01.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" version="14.8.0" etag="hKFwakau8Gw_M7M9CgXW" type="github"><diagram id="v89iMYd2DjBNGdAJLiYk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-18T02:51:37.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="2q7ylgsRc5oYkTDSbM-q" version="14.8.0" type="github">
+  <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1meufm5pPCAuNKvldUBH-1" value="老石坎水库" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-3" value="原有数据平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
+          <mxGeometry x="10" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-4" value="原有中控平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
+          <mxGeometry x="120" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-5" value="新建取水口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
+          <mxGeometry x="68.75" y="90" width="72.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="266" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-9" target="1meufm5pPCAuNKvldUBH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-9" target="1meufm5pPCAuNKvldUBH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="数据集成总平台" treeRoot="1" id="1meufm5pPCAuNKvldUBH-9">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+            <mxGeometry x="80" y="40" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1meufm5pPCAuNKvldUBH-10" value="数据采集平台" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="30" y="140" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-11" value="Division" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="146" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-12" value="中控平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="116" y="200" width="72.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-21" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="80" height="104" as="geometry">
+            <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-22" value="水位数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1meufm5pPCAuNKvldUBH-21">
+          <mxGeometry y="26" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-23" value="流量数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1meufm5pPCAuNKvldUBH-21">
+          <mxGeometry y="52" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1meufm5pPCAuNKvldUBH-24" value="开度数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1meufm5pPCAuNKvldUBH-21">
+          <mxGeometry y="78" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
