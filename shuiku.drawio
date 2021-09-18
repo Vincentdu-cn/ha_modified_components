@@ -1,28 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T03:48:15.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="2OcAVZ7bIconpQ80GbB_" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T03:56:00.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="FVZRNNtjlNzkb_q_7Yxu" version="14.8.0" type="github">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
     <mxGraphModel dx="649" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1meufm5pPCAuNKvldUBH-1" value="老石坎水库" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="40" y="130" width="340" height="360" as="geometry" />
+        <mxCell id="1meufm5pPCAuNKvldUBH-1" value="老石坎水库" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="150" y="130" width="230" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-80" value="老石坎水库现有平台" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
-          <mxGeometry x="100" y="34" width="140" height="78" as="geometry">
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-80" value="老石坎水库现有平台" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
+          <mxGeometry x="70" y="34" width="140" height="78" as="geometry">
             <mxRectangle x="108.75" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-81" value="原有数据采集系统" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;shadow=0;" vertex="1" parent="rkCiEfMvTKPaeprXMYrk-80">
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-81" value="原有数据采集系统" style="text;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;shadow=0;strokeColor=#D6B656;" vertex="1" parent="rkCiEfMvTKPaeprXMYrk-80">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-82" value="原有中控系统" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageAspect=1;" vertex="1" parent="rkCiEfMvTKPaeprXMYrk-80">
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-82" value="原有中控系统" style="text;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageAspect=1;" vertex="1" parent="rkCiEfMvTKPaeprXMYrk-80">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-1" source="rkCiEfMvTKPaeprXMYrk-75" target="rkCiEfMvTKPaeprXMYrk-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-95" value="物联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rkCiEfMvTKPaeprXMYrk-88">
+          <mxGeometry x="0.0218" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-75" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
-          <mxGeometry x="40" y="160" width="80" height="130" as="geometry">
+          <mxGeometry x="10" y="160" width="80" height="130" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -41,16 +46,21 @@
         <mxCell id="rkCiEfMvTKPaeprXMYrk-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-1" source="rkCiEfMvTKPaeprXMYrk-73" target="rkCiEfMvTKPaeprXMYrk-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-97" value="控制局域网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rkCiEfMvTKPaeprXMYrk-87">
+          <mxGeometry x="0.205" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-73" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
-          <mxGeometry x="130" y="160" width="80" height="52" as="geometry">
+          <mxGeometry x="100" y="160" width="80" height="52" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-74" value="闸门" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rkCiEfMvTKPaeprXMYrk-73">
           <mxGeometry y="26" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
-          <mxGeometry x="390" y="130" width="390" height="450" as="geometry" />
+        <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="390" y="130" width="390" height="380" as="geometry" />
         </mxCell>
         <UserObject label="数据集成总平台" treeRoot="1" id="1meufm5pPCAuNKvldUBH-9">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
@@ -138,9 +148,6 @@
         <mxCell id="rkCiEfMvTKPaeprXMYrk-70" value="水厂数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
           <mxGeometry x="126" y="140" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-72" value="老石坎水库数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="24" y="140" width="94" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="rkCiEfMvTKPaeprXMYrk-70" target="1meufm5pPCAuNKvldUBH-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="80" as="targetPoint" />
@@ -148,6 +155,14 @@
               <mxPoint x="155" y="130" />
               <mxPoint x="155" y="130" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-90" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="rkCiEfMvTKPaeprXMYrk-80" target="1meufm5pPCAuNKvldUBH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-92" value="互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rkCiEfMvTKPaeprXMYrk-90">
+          <mxGeometry x="-0.3951" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
