@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T03:13:47.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="7SJdVoykowonasFxKo0p" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T03:16:21.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="CAoy0E7nlcjmJ-DG30kB" version="14.8.0" type="github">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
-    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,23 +19,11 @@
         <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
           <mxGeometry x="414" y="130" width="356" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="1meufm5pPCAuNKvldUBH-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-9" target="1meufm5pPCAuNKvldUBH-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1meufm5pPCAuNKvldUBH-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-9" target="1meufm5pPCAuNKvldUBH-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <UserObject label="数据集成总平台" treeRoot="1" id="1meufm5pPCAuNKvldUBH-9">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
             <mxGeometry x="80" y="40" width="90" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="1meufm5pPCAuNKvldUBH-10" value="数据采集平台" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
-          <mxGeometry x="108" y="140" width="76" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1meufm5pPCAuNKvldUBH-11" value="Division" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
-          <mxGeometry y="140" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-12" value="中控平台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
           <mxGeometry x="276" y="140" width="72.5" height="30" as="geometry" />
         </mxCell>
@@ -78,8 +66,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-21" target="rkCiEfMvTKPaeprXMYrk-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-69" value="物联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rkCiEfMvTKPaeprXMYrk-67">
+          <mxGeometry x="0.2649" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-21" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
-          <mxGeometry x="104" y="230" width="80" height="130" as="geometry">
+          <mxGeometry x="166" y="230" width="80" height="130" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -95,13 +91,11 @@
         <mxCell id="rkCiEfMvTKPaeprXMYrk-2" value="视频信息" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1meufm5pPCAuNKvldUBH-21">
           <mxGeometry y="104" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-21" target="1meufm5pPCAuNKvldUBH-10">
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="rkCiEfMvTKPaeprXMYrk-45" target="1meufm5pPCAuNKvldUBH-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-5" value="物联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rkCiEfMvTKPaeprXMYrk-3">
-          <mxGeometry x="0.2111" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-45" value="数据集成平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="169" y="140" width="74" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
