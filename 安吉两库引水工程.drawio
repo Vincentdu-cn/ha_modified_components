@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T07:21:44.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="5ZBv8soNWTP_msXtzAgQ" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T07:51:34.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="SoaX6zfTsS2E-q8dPsqh" version="14.8.0" type="github">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1meufm5pPCAuNKvldUBH-1" value="老石坎水库" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="50" y="170" width="240" height="310" as="geometry">
+          <mxGeometry x="10" y="170" width="301" height="310" as="geometry">
             <mxRectangle x="150" y="130" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18,7 +18,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-80" value="老石坎水库现有平台" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=0;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1meufm5pPCAuNKvldUBH-1" vertex="1">
-          <mxGeometry x="76" y="34" width="140" height="78" as="geometry">
+          <mxGeometry x="133" y="34" width="140" height="78" as="geometry">
             <mxRectangle x="108.75" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -29,40 +29,63 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1meufm5pPCAuNKvldUBH-1" source="rkCiEfMvTKPaeprXMYrk-75" target="rkCiEfMvTKPaeprXMYrk-81" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-95" value="物联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rkCiEfMvTKPaeprXMYrk-88" vertex="1" connectable="0">
-          <mxGeometry x="0.0218" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="123" />
+              <mxPoint x="113" y="123" />
+              <mxPoint x="113" y="73" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-75" value="进水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1meufm5pPCAuNKvldUBH-1" vertex="1">
-          <mxGeometry x="6" y="160" width="80" height="130" as="geometry">
+          <mxGeometry x="78" y="160" width="73" height="130" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-76" value="水位数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rkCiEfMvTKPaeprXMYrk-75" vertex="1">
-          <mxGeometry y="26" width="80" height="26" as="geometry" />
+          <mxGeometry y="26" width="73" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-77" value="流量数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rkCiEfMvTKPaeprXMYrk-75" vertex="1">
-          <mxGeometry y="52" width="80" height="26" as="geometry" />
+          <mxGeometry y="52" width="73" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-78" value="开度数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rkCiEfMvTKPaeprXMYrk-75" vertex="1">
-          <mxGeometry y="78" width="80" height="26" as="geometry" />
+          <mxGeometry y="78" width="73" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-79" value="视频数据" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rkCiEfMvTKPaeprXMYrk-75" vertex="1">
-          <mxGeometry y="104" width="80" height="26" as="geometry" />
+          <mxGeometry y="104" width="73" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-73" value="进水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1meufm5pPCAuNKvldUBH-1" vertex="1">
-          <mxGeometry x="100" y="160" width="80" height="52" as="geometry">
-            <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
+          <mxGeometry x="159" y="160" width="80" height="52" as="geometry">
+            <mxRectangle x="100" y="160" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-74" value="闸门" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rkCiEfMvTKPaeprXMYrk-73" vertex="1">
           <mxGeometry y="26" width="80" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-1" source="JH0Gc2BwRcue3vkkwiCH-7" target="rkCiEfMvTKPaeprXMYrk-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-12" value="物联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JH0Gc2BwRcue3vkkwiCH-11">
+          <mxGeometry x="0.4008" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-7" value="其他设备" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-1">
+          <mxGeometry x="6" y="160" width="69" height="104" as="geometry">
+            <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-8" value="水位计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-7">
+          <mxGeometry y="26" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-9" value="流量计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-7">
+          <mxGeometry y="52" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-10" value="水压计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-7">
+          <mxGeometry y="78" width="69" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="405" y="20" width="375" height="460" as="geometry" />
+          <mxGeometry x="426" y="20" width="375" height="460" as="geometry" />
         </mxCell>
         <mxCell id="7jP-nnXtbnVbqxgdrz82-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-12" target="rkCiEfMvTKPaeprXMYrk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -178,6 +201,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="JH0Gc2BwRcue3vkkwiCH-1" target="rkCiEfMvTKPaeprXMYrk-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-1" value="其他设备" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="15" y="322" width="80" height="104" as="geometry">
+            <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-2" value="水位计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-1">
+          <mxGeometry y="26" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-3" value="流量计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-1">
+          <mxGeometry y="52" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JH0Gc2BwRcue3vkkwiCH-4" value="水压计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JH0Gc2BwRcue3vkkwiCH-1">
+          <mxGeometry y="78" width="80" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="412" y="195" as="sourcePoint" />
@@ -188,39 +228,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-113" value="互联网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;rounded=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="310" y="170" width="90" height="50" as="geometry" />
+          <mxGeometry x="331" y="170" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;endArrow=none;" parent="1" source="rkCiEfMvTKPaeprXMYrk-81" target="rkCiEfMvTKPaeprXMYrk-113" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="203" as="sourcePoint" />
-            <mxPoint x="480" y="189.99999999999994" as="targetPoint" />
+            <mxPoint x="291" y="203" as="sourcePoint" />
+            <mxPoint x="501" y="189.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="243" />
+              <mxPoint x="331" y="243" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-121" value="&lt;font style=&quot;font-size: 16px&quot;&gt;运营商VPN专线&lt;/font&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vpn;rounded=1;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="494" width="50" height="50" as="geometry" />
+          <mxGeometry x="481" y="494" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-126" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" target="1meufm5pPCAuNKvldUBH-12" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="250" y="284" as="sourcePoint" />
-            <mxPoint x="720" y="300" as="targetPoint" />
+            <mxPoint x="271" y="284" as="sourcePoint" />
+            <mxPoint x="741" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="250" y="520" />
-              <mxPoint x="760" y="520" />
-              <mxPoint x="760" y="292" />
+              <mxPoint x="271" y="520" />
+              <mxPoint x="781" y="520" />
+              <mxPoint x="781" y="292" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="U8nAnuVf2BzBwSrt1ShJ-2" value="安吉两库引水工程" style="text;fontSize=40;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="27" width="346" height="30" as="geometry" />
+          <mxGeometry x="71" y="27" width="346" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U8nAnuVf2BzBwSrt1ShJ-3" value="" style="dashed=0;shape=line;strokeWidth=2;noLabel=1;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="72" width="346" height="10" as="geometry" />
+          <mxGeometry x="61" y="72" width="346" height="10" as="geometry" />
         </mxCell>
         <mxCell id="U8nAnuVf2BzBwSrt1ShJ-5" value="网络拓扑图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="120" y="82" width="140" height="40" as="geometry" />
+          <mxGeometry x="141" y="82" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
