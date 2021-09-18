@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T05:59:51.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="5JK3VNRO7cXZYGUrUFwE" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T06:12:29.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="pScsmDC0bogv5U1kel6q" version="14.8.0" type="github">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
     <mxGraphModel dx="819" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,37 +64,37 @@
           <mxGeometry y="26" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-6" value="赋石水库" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="402" y="130" width="390" height="350" as="geometry" />
+          <mxGeometry x="405" y="50" width="375" height="430" as="geometry" />
         </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-12" value="中控系统" style="rounded=1;whiteSpace=wrap;html=1;" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
-          <mxGeometry x="246" y="130" width="72.5" height="30" as="geometry" />
+          <mxGeometry x="201" y="216" width="72.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-26" value="工业网闸" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.ngfw;sketch=0;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="308" y="34" width="52.5" height="46" as="geometry" />
+          <mxGeometry x="263" y="120" width="52.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-32" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=-0.041;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" target="rkCiEfMvTKPaeprXMYrk-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="59.5" as="sourcePoint" />
-            <mxPoint x="246" y="40" as="targetPoint" />
+            <mxPoint x="155" y="145.5" as="sourcePoint" />
+            <mxPoint x="201" y="126" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="226" y="60" />
+              <mxPoint x="181" y="146" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-33" value="" style="endArrow=classic;startArrow=classic;html=1;jumpSize=6;entryX=0.807;entryY=0.526;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="1meufm5pPCAuNKvldUBH-12" target="rkCiEfMvTKPaeprXMYrk-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="242.25" y="194.5" as="sourcePoint" />
-            <mxPoint x="301" y="100" as="targetPoint" />
+            <mxPoint x="197.25" y="280.5" as="sourcePoint" />
+            <mxPoint x="256" y="186" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="283" y="110" />
-              <mxPoint x="378" y="110" />
-              <mxPoint x="378" y="58" />
-              <mxPoint x="344" y="58" />
+              <mxPoint x="238" y="196" />
+              <mxPoint x="333" y="196" />
+              <mxPoint x="333" y="144" />
+              <mxPoint x="299" y="144" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-6" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="243.12" y="210" width="80" height="52" as="geometry">
+          <mxGeometry x="198.12" y="296" width="80" height="52" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1meufm5pPCAuNKvldUBH-21" value="取水口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;rounded=1;shadow=0;sketch=0;glass=0;swimlaneFillColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1meufm5pPCAuNKvldUBH-6" vertex="1">
-          <mxGeometry x="154.37" y="210" width="80" height="130" as="geometry">
+          <mxGeometry x="109.37" y="296" width="80" height="130" as="geometry">
             <mxRectangle x="400" y="410" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -138,28 +138,44 @@
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.548;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="rkCiEfMvTKPaeprXMYrk-45" target="rkCiEfMvTKPaeprXMYrk-98">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="194" y="90" as="targetPoint" />
+            <mxPoint x="149" y="176" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="194" y="110" />
-              <mxPoint x="156" y="110" />
+              <mxPoint x="149" y="196" />
+              <mxPoint x="111" y="196" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-45" value="数据集成系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="150" y="130" width="87" height="30" as="geometry" />
+          <mxGeometry x="105" y="216" width="87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1meufm5pPCAuNKvldUBH-6" source="rkCiEfMvTKPaeprXMYrk-70" target="rkCiEfMvTKPaeprXMYrk-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-70" value="水厂数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="66" y="130" width="74" height="30" as="geometry" />
+          <mxGeometry x="21" y="216" width="74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-98" value="安吉两库引水工程智慧管护系统" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#D6B656;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
-          <mxGeometry x="90" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="45" y="126" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rkCiEfMvTKPaeprXMYrk-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;startArrow=none;" edge="1" parent="1" target="rkCiEfMvTKPaeprXMYrk-98">
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="55" y="19" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-133" value="展示决策大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="64" y="99" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-134" value="控制调度大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="234" y="99" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="1meufm5pPCAuNKvldUBH-6">
+          <mxGeometry x="229" y="19" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rkCiEfMvTKPaeprXMYrk-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;startArrow=none;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="412" y="195" as="sourcePoint" />
+            <mxPoint x="450" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="195" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rkCiEfMvTKPaeprXMYrk-113" value="互联网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;rounded=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
@@ -181,7 +197,7 @@
             <Array as="points">
               <mxPoint x="240" y="520" />
               <mxPoint x="760" y="520" />
-              <mxPoint x="760" y="275" />
+              <mxPoint x="760" y="281" />
             </Array>
           </mxGeometry>
         </mxCell>
