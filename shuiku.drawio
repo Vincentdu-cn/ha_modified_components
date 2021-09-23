@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T03:16:39.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="3kFEm_cz4PITHBtUCSvZ" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:18:54.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="31j4fhTHmuM1e1x1zqxB" version="15.2.9" type="github">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
-    <mxGraphModel dx="1117" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,6 +276,15 @@
         </mxCell>
         <mxCell id="r5fEetztkuFnfNknRoMJ-33" value="PLC路由器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="140" y="755.2" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r5fEetztkuFnfNknRoMJ-42" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="r5fEetztkuFnfNknRoMJ-41" target="r5fEetztkuFnfNknRoMJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5fEetztkuFnfNknRoMJ-41" value="工业网闸" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.ngfw;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="52.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="r5fEetztkuFnfNknRoMJ-43" value="PLC路由器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="292.4" y="670" width="55" height="36.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
