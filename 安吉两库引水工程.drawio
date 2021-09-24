@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T00:43:09.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="QlukyAmzWJwL-JBVslt3" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T07:28:54.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="FckjxapvmEVVH7skfaw7" version="15.3.0" type="github" pages="2">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
     <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,6 +296,545 @@
             <Array as="points">
               <mxPoint x="270" y="524" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_ZyNmleaZGE4H7eGu5Hl" name="第 2 页">
+    <mxGraphModel dx="3609" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="41SENJee4izSB-XXYJa2-0" />
+        <mxCell id="41SENJee4izSB-XXYJa2-1" parent="41SENJee4izSB-XXYJa2-0" />
+        <mxCell id="41SENJee4izSB-XXYJa2-2" value="监控网络" style="swimlane;horizontal=1;sketch=0;fontSize=20;fontColor=#000000;strokeColor=#000000;fillColor=#7D7C7C;gradientColor=none;verticalAlign=middle;textDirection=ltr;labelBorderColor=none;startSize=32;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="388" y="868" width="390" height="214" as="geometry">
+            <mxRectangle x="420" y="838" width="110" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-2">
+          <mxGeometry x="280" y="88" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-4" value="监控大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-2">
+          <mxGeometry x="304" y="176" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-5" value="老石坎水库" style="swimlane;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;startSize=30;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-960" y="600" width="850" height="550" as="geometry">
+            <mxRectangle x="150" y="130" width="90" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-6" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;fontSize=20;fontColor=#000000;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="370" y="420" width="60.27" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-7" value="" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-8" target="41SENJee4izSB-XXYJa2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-8" value="" style="shape=mxgraph.cisco.security.ios_firewall;html=1;pointerEvents=1;dashed=0;fillColor=#7D7C7C;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="380.13" y="320" width="40" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-9" value="监控网络" style="swimlane;horizontal=1;sketch=0;fontSize=20;fontColor=#000000;strokeColor=#000000;fillColor=#C2BFBF;gradientColor=none;verticalAlign=middle;textDirection=ltr;labelBorderColor=none;startSize=32;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="450" y="50" width="390" height="214" as="geometry">
+            <mxRectangle x="420" y="838" width="110" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-9">
+          <mxGeometry x="280" y="88" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-11" value="监控大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-9">
+          <mxGeometry x="304" y="176" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-12" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="124" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="652" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-13" value="硬盘录像机NVR" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.1u_2u_server;fillColor=#7D7C7C;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="610.96" y="192.39999999999998" width="81.58" height="31.9" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-14" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="469.6" y="192.39999999999998" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-16" value="监控交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="545.6" y="91" width="65.36" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-17" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="514" y="192.39999999999998" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-18" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="564" y="192.39999999999998" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-19" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-5" target="41SENJee4izSB-XXYJa2-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="192.4000000000001" as="sourcePoint" />
+            <mxPoint x="628" y="-407.6" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="162.39999999999998" />
+              <mxPoint x="575" y="162" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-20" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-10" target="41SENJee4izSB-XXYJa2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-21" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-24" target="41SENJee4izSB-XXYJa2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-22" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;exitX=0.968;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-24" target="41SENJee4izSB-XXYJa2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-23" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-24" target="41SENJee4izSB-XXYJa2-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.96" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="160" />
+              <mxPoint x="440" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-24" value="核心交换机" style="shape=mxgraph.cisco.routers.atm_tag_switch_router;html=1;pointerEvents=1;dashed=0;fillColor=#7D7C7C;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;sketch=0;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="364" y="110" width="50" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-25" value="PLC控制网" style="swimlane;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#C2BFBF;gradientColor=none;fontSize=20;startSize=30;verticalAlign=middle;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="30" y="50" width="310" height="480" as="geometry">
+            <mxRectangle y="620" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-26" value="PLC工作站" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="44.41" y="276.20000000000005" width="43.8" height="43.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-27" value="PLC服务器" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="93.91" y="40" width="36.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-28" value="水压计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="140" y="317" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-29" value="流量计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABaElEQVRIDe2XMauCUBiGhZqbmtxaImhJDIIGCScHoR8QOBc1tbe4O9UuQUO/wEUc/AO2tDjYXwihzeG9fN/g5Dm3i2HD9YDy+n3nvI/nRREVfGkoxF0sFlAUpbGDeQQmaJODN9mCm4i8jbqJlJnRRi2NOssyjEYjPJ9PvF4v1mmaSteImn+Kut/vIwgCzOdzTKdT1qqqiryl9bfBq9UKl8uFzWazGSzLYn06nbDdbqWQquZb4PP5DMdxeH0cxzAMA4PBAI/Hg2umaSKKoip/Ya0SvF6vhV8pghZFgdvthslkwsZ5nqPX67H2PE+4drfblTdSCS67v4jD4QDXdXmW7/ugnS+XS76+3+8Yj8dCh1pgciVzgtDodru4Xq+sNU1DkiSsq061wfQ6DYdDbDYb0IPW6XRAce/3+ypeWasNJqfj8Qjbttk0DEPoul4CROIjYJG5rN6CZel8tNdG/dE4ZWb/OOpv/Dv9AA09NblgpG6PAAAAAElFTkSuQmCC;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="177.66" y="317" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-30" value="开度计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAYAAACB4MgqAAACPklEQVRYCdWYIZMCMQyF9yfh0Xg8lsHj8XgUBo9fj8fj8Wh8bx5zYUrIaxMooplhdvu2ffmux3WTG1KnMUS4l8tlmkwmzT/wjYYbfLvdpuPxGPV3zYcv/CPhAr9er2k+n0d8w3PhjzzecIGvVqt0Pp+9nh/Ngz/yeKMKfjqd0nq99vp9NQ95kM8TVfDZbJZut5vH6+s5yIN8niiCHw6HtNvtPD7N5iAf8taCgt/v9zSdTmvrX57v9/uXsQyYLs/1FXmRvxQUfLPZpHEcS2vfnuGMt4Lp1lxoyIv8pTDBL5dLWiwWpXXmMwbIdNPkX0R+cLAwwWuLmBkDZDrzgV7bvDdwz6+JJWSATGc+ope+rm/gnj8MMdZXBsh0vV6PSwfEC7j3KNIJZMwAmS7rSld2JD/BI4c/S8QAmc58tG69BJ/gkdetNpYxA2S6rKtdrbLjAR4tcFgiBsh05mPputB7gEdLSssYGgNkOvOxdF1aD58U8Zbxr8HhnzczQ7RtQt2BHdQf0a0fSnactX4RBpnb745jh7r8jgO821MF8F2e4wDv9s0J+C5rFYAjuqwOAd5tPQ74LjsggNfaJsyxQt6Q+hnT9bx8XNu8Z1mbL8J9qW3Sc2XM/g3BdFmnr56vKwUvtU06Ueux54Cg4IBhbVNr0NzPeyQXwWFotU15opb3kZdgFdxqm1rC5l6RsqMKDmPdNuXJWt1HCz0XuG6bWsHmPtHS2gWOBHnblCdscf9J++gGByBrvXQbFx1LOxbZhD+mcPd5nSXvpQAAAABJRU5ErkJggg==;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="215.00000000000003" y="317" width="34.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-31" value="PLC控制柜" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.residual_current_device_4p;sketch=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="134.40999999999997" y="151.70000000000005" width="48" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-32" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;width=5.294117647058824;" edge="1" parent="41SENJee4izSB-XXYJa2-25" source="41SENJee4izSB-XXYJa2-33" target="41SENJee4izSB-XXYJa2-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62" y="140" />
+              <mxPoint x="180" y="140" />
+              <mxPoint x="180" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-33" value="PLC交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="30.01" y="166.20000000000005" width="63.9" height="43.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-34" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-25" source="41SENJee4izSB-XXYJa2-26" target="41SENJee4izSB-XXYJa2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-35" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.313;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="41SENJee4izSB-XXYJa2-25" source="41SENJee4izSB-XXYJa2-27" target="41SENJee4izSB-XXYJa2-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-36" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;exitX=0.208;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="41SENJee4izSB-XXYJa2-25" source="41SENJee4izSB-XXYJa2-31" target="41SENJee4izSB-XXYJa2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-37" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="88.21" y="292.4" as="sourcePoint" />
+            <mxPoint x="110" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-38" value="控制、调度大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="61.41" y="435" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="62.91" y="355" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-40" value="工业网闸" style="verticalLabelPosition=bottom;html=1;fillColor=#7D7C7C;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.ngfw;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="212.66" y="105.7" width="52.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-41" value="闸门" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/travelling-icon-set/800/golden_gate-128.png;fillColor=#C2BFBF;" vertex="1" parent="41SENJee4izSB-XXYJa2-25">
+          <mxGeometry x="254.15999999999997" y="312" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-42" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;dashed=1;" edge="1" parent="41SENJee4izSB-XXYJa2-25" target="41SENJee4izSB-XXYJa2-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="152.66" y="313.1" as="sourcePoint" />
+            <mxPoint x="232.66" y="313.1" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="152.66" y="283.1" />
+              <mxPoint x="274" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-43" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-5" source="41SENJee4izSB-XXYJa2-40" target="41SENJee4izSB-XXYJa2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-44" value="防火墙" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="350" y="386" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-45" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;出口路由器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="425.6" y="430" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-46" value="原有网络" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx;" vertex="1" parent="41SENJee4izSB-XXYJa2-5">
+          <mxGeometry x="630" y="320" width="168.84" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-47" value="赋石水库" style="swimlane;startSize=30;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-60" y="600" width="855" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-48" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-47" source="41SENJee4izSB-XXYJa2-49" target="41SENJee4izSB-XXYJa2-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-49" value="" style="shape=mxgraph.cisco.routers.atm_tag_switch_router;html=1;pointerEvents=1;dashed=0;fillColor=#7D7C7C;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;sketch=0;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="360" y="130.00000000000006" width="50" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-50" value="监控网络" style="swimlane;horizontal=1;sketch=0;fontSize=20;fontColor=#000000;strokeColor=#000000;fillColor=#C2BFBF;gradientColor=none;verticalAlign=middle;textDirection=ltr;labelBorderColor=none;startSize=32;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="448" y="268" width="390" height="214" as="geometry">
+            <mxRectangle x="420" y="838" width="110" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-50">
+          <mxGeometry x="280" y="88" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-52" value="监控大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-50">
+          <mxGeometry x="304" y="176" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-53" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-47" source="41SENJee4izSB-XXYJa2-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="608" y="342" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-54" value="硬盘录像机NVR" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.1u_2u_server;fillColor=#7D7C7C;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="608.96" y="410.4" width="81.58" height="31.9" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-55" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="467.6" y="410.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-47" source="41SENJee4izSB-XXYJa2-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="518" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-57" value="监控交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="543.6" y="309" width="65.36" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-58" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="512" y="410.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-59" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="562" y="410.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-60" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-47" target="41SENJee4izSB-XXYJa2-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478" y="410.4000000000001" as="sourcePoint" />
+            <mxPoint x="598" y="380.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="380.4" />
+              <mxPoint x="573" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-61" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-47" source="41SENJee4izSB-XXYJa2-51" target="41SENJee4izSB-XXYJa2-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-62" value="&lt;font style=&quot;font-size: 12px&quot;&gt;核心交换机&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="345" y="89.99999999999994" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-63" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-47" source="41SENJee4izSB-XXYJa2-64" target="41SENJee4izSB-XXYJa2-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-64" value="&lt;font style=&quot;font-size: 12px&quot;&gt;防火墙&lt;/font&gt;" style="shape=mxgraph.cisco.security.ios_firewall;html=1;pointerEvents=1;dashed=0;fillColor=#7D7C7C;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="365" y="329.99999999999994" width="40" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-65" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;fontSize=20;fontColor=#000000;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="354.86" y="450" width="60.27" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-66" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;出口路由器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-47">
+          <mxGeometry x="365" y="490" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-67" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-49" target="41SENJee4izSB-XXYJa2-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-68" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-69" target="41SENJee4izSB-XXYJa2-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-69" value="应用系统服务器" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#7D7C7C;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.esxi_hyper_v_ahv_host;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="580.48" y="767" width="62.04" height="60.2" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-70" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-71" target="41SENJee4izSB-XXYJa2-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-71" value="服务器接入交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="481.6700000000001" y="774.6999999999999" width="65.36" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-72" value="应用防火墙" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#7D7C7C;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.waf;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="404.48" y="772.1" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-73" value="PLC控制网" style="swimlane;sketch=0;fontColor=#000000;strokeColor=#000000;fillColor=#C2BFBF;gradientColor=none;fontSize=20;startSize=30;verticalAlign=middle;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-32" y="650" width="310" height="480" as="geometry">
+            <mxRectangle y="620" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-74" value="PLC工作站" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="44.41" y="276.20000000000005" width="43.8" height="43.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-75" value="PLC服务器" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="88.21" y="40" width="36.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-76" value="PLC控制柜" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.residual_current_device_4p;sketch=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="134.40999999999997" y="151.70000000000005" width="48" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-77" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;width=5.294117647058824;" edge="1" parent="41SENJee4izSB-XXYJa2-73" source="41SENJee4izSB-XXYJa2-79" target="41SENJee4izSB-XXYJa2-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62" y="140" />
+              <mxPoint x="180" y="140" />
+              <mxPoint x="180" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-78" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-73" source="41SENJee4izSB-XXYJa2-79" target="41SENJee4izSB-XXYJa2-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="22" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-79" value="PLC交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="30.01" y="166.20000000000005" width="63.9" height="43.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-80" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;exitX=0.208;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="41SENJee4izSB-XXYJa2-73" source="41SENJee4izSB-XXYJa2-76" target="41SENJee4izSB-XXYJa2-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-81" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="88.21" y="292.4" as="sourcePoint" />
+            <mxPoint x="132" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="132" y="292" />
+              <mxPoint x="132" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-82" value="控制、调度大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="80.91" y="440" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-83" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="81.91" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-84" value="工业网闸" style="verticalLabelPosition=bottom;html=1;fillColor=#7D7C7C;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.ngfw;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="212.66" y="105.7" width="52.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-85" value="水压计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="152" y="314" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-86" value="流量计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABaElEQVRIDe2XMauCUBiGhZqbmtxaImhJDIIGCScHoR8QOBc1tbe4O9UuQUO/wEUc/AO2tDjYXwihzeG9fN/g5Dm3i2HD9YDy+n3nvI/nRREVfGkoxF0sFlAUpbGDeQQmaJODN9mCm4i8jbqJlJnRRi2NOssyjEYjPJ9PvF4v1mmaSteImn+Kut/vIwgCzOdzTKdT1qqqiryl9bfBq9UKl8uFzWazGSzLYn06nbDdbqWQquZb4PP5DMdxeH0cxzAMA4PBAI/Hg2umaSKKoip/Ya0SvF6vhV8pghZFgdvthslkwsZ5nqPX67H2PE+4drfblTdSCS67v4jD4QDXdXmW7/ugnS+XS76+3+8Yj8dCh1pgciVzgtDodru4Xq+sNU1DkiSsq061wfQ6DYdDbDYb0IPW6XRAce/3+ypeWasNJqfj8Qjbttk0DEPoul4CROIjYJG5rN6CZel8tNdG/dE4ZWb/OOpv/Dv9AA09NblgpG6PAAAAAElFTkSuQmCC;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="189.65999999999997" y="314" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-87" value="开度计" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAYAAACB4MgqAAACPklEQVRYCdWYIZMCMQyF9yfh0Xg8lsHj8XgUBo9fj8fj8Wh8bx5zYUrIaxMooplhdvu2ffmux3WTG1KnMUS4l8tlmkwmzT/wjYYbfLvdpuPxGPV3zYcv/CPhAr9er2k+n0d8w3PhjzzecIGvVqt0Pp+9nh/Ngz/yeKMKfjqd0nq99vp9NQ95kM8TVfDZbJZut5vH6+s5yIN8niiCHw6HtNvtPD7N5iAf8taCgt/v9zSdTmvrX57v9/uXsQyYLs/1FXmRvxQUfLPZpHEcS2vfnuGMt4Lp1lxoyIv8pTDBL5dLWiwWpXXmMwbIdNPkX0R+cLAwwWuLmBkDZDrzgV7bvDdwz6+JJWSATGc+ope+rm/gnj8MMdZXBsh0vV6PSwfEC7j3KNIJZMwAmS7rSld2JD/BI4c/S8QAmc58tG69BJ/gkdetNpYxA2S6rKtdrbLjAR4tcFgiBsh05mPputB7gEdLSssYGgNkOvOxdF1aD58U8Zbxr8HhnzczQ7RtQt2BHdQf0a0fSnactX4RBpnb745jh7r8jgO821MF8F2e4wDv9s0J+C5rFYAjuqwOAd5tPQ74LjsggNfaJsyxQt6Q+hnT9bx8XNu8Z1mbL8J9qW3Sc2XM/g3BdFmnr56vKwUvtU06Ueux54Cg4IBhbVNr0NzPeyQXwWFotU15opb3kZdgFdxqm1rC5l6RsqMKDmPdNuXJWt1HCz0XuG6bWsHmPtHS2gWOBHnblCdscf9J++gGByBrvXQbFx1LOxbZhD+mcPd5nSXvpQAAAABJRU5ErkJggg==;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="227" y="314" width="34.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-88" value="闸门" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/travelling-icon-set/800/golden_gate-128.png;fillColor=#C2BFBF;" vertex="1" parent="41SENJee4izSB-XXYJa2-73">
+          <mxGeometry x="266.15999999999997" y="309" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-89" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;dashed=1;" edge="1" parent="41SENJee4izSB-XXYJa2-73" target="41SENJee4izSB-XXYJa2-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164.66000000000008" y="310.0999999999997" as="sourcePoint" />
+            <mxPoint x="1174.66" y="-339.9" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="164.65999999999997" y="280.1" />
+              <mxPoint x="286" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-90" value="应用系统网络" style="swimlane;sketch=0;fontSize=20;fontColor=#000000;strokeColor=#000000;fillColor=#C2BFBF;gradientColor=none;verticalAlign=middle;startSize=30;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="388" y="650" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-91" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-90" source="41SENJee4izSB-XXYJa2-93" target="41SENJee4izSB-XXYJa2-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-92" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-90" source="41SENJee4izSB-XXYJa2-93" target="41SENJee4izSB-XXYJa2-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-93" value="控制台主机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-90">
+          <mxGeometry x="197.00000000000006" y="37" width="43.8" height="43.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-94" value="接入交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-90">
+          <mxGeometry x="97.00000000000006" y="46.999999999999886" width="65.36" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-95" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu/24/device-laptop-computer-outline-stroke-128.png;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-90">
+          <mxGeometry x="278" y="37" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-96" value="展示、决策大屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-90">
+          <mxGeometry x="282" y="125" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-97" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-49" target="41SENJee4izSB-XXYJa2-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="921" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-98" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-72" target="41SENJee4izSB-XXYJa2-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="780" />
+              <mxPoint x="337" y="910" />
+              <mxPoint x="338" y="900" />
+              <mxPoint x="358" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-99" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548" y="942.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="992" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-100" value="硬盘录像机NVR" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.1u_2u_server;fillColor=#7D7C7C;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="548.96" y="1010.4" width="81.58" height="31.9" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-101" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="407.6" y="1010.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-103" value="监控交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="483.6" y="909" width="65.36" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-104" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="452" y="1010.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-105" value="摄像头" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#949494;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="502" y="1010.4" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-106" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-1" target="41SENJee4izSB-XXYJa2-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="418" y="1010.4000000000001" as="sourcePoint" />
+            <mxPoint x="538" y="980.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418" y="980.4" />
+              <mxPoint x="513" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-107" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-3" target="41SENJee4izSB-XXYJa2-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-108" value="&lt;span style=&quot;font-size: 12px&quot;&gt;运营商VPN专线（大带宽）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-260" y="1229" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-109" value="&lt;span style=&quot;font-size: 12px&quot;&gt;运营商VPN专线（小带宽）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-630" y="1290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-110" value="安吉两库引水工程" style="text;fontSize=80;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-391" y="390" width="346" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-111" value="" style="dashed=0;shape=line;strokeWidth=2;noLabel=1;strokeColor=#ff0000;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-413" y="475" width="677" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-112" value="网络拓扑图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=50;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-209.5" y="500" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-113" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-84" target="41SENJee4izSB-XXYJa2-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-114" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-115" target="41SENJee4izSB-XXYJa2-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-115" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vpn;rounded=1;glass=0;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-205" y="1169" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-116" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-6" target="41SENJee4izSB-XXYJa2-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-117" style="edgeStyle=elbowEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=50;fontColor=#000000;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9.99999999999909" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-70" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-118" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vpn;rounded=1;glass=0;sketch=0;" vertex="1" parent="41SENJee4izSB-XXYJa2-1">
+          <mxGeometry x="-584.4" y="1230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-119" value="" style="endArrow=none;html=1;fontSize=50;fontColor=#000000;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-1" target="41SENJee4izSB-XXYJa2-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-890" y="820" as="sourcePoint" />
+            <mxPoint x="-630" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-980" y="819.5" />
+              <mxPoint x="-980" y="1255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9.99999999999909" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="717" />
+              <mxPoint x="20" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-121" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-720" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41SENJee4izSB-XXYJa2-122" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1.04;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="41SENJee4izSB-XXYJa2-1" source="41SENJee4izSB-XXYJa2-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999991" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
