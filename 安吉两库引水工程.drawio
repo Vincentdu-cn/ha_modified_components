@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T10:31:42.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="vyuTcU0rYSH1WBZgJwW3" version="15.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-27T08:54:41.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="lC_GfdqFuf36Lm2AySs-" version="15.3.3" type="github" pages="4">
   <diagram id="v89iMYd2DjBNGdAJLiYk" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -910,10 +910,82 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gv1hQvG0c2A2FQwz0QVp" name="工程集控中心">
-    <mxGraphModel dx="2234" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BfGoeHZrsXy_JLZyjrRE-0" />
         <mxCell id="BfGoeHZrsXy_JLZyjrRE-1" parent="BfGoeHZrsXy_JLZyjrRE-0" />
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-5" value="隧洞光纤光栅" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=1;align=center;verticalAlign=middle;" vertex="1" parent="BfGoeHZrsXy_JLZyjrRE-1">
+          <mxGeometry x="74" y="740" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-6" value="测缝计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-7" value="渗压计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-13" value="锚索应力计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-20" value="锚索应力计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-22" value="多点位移计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-21" value="钢板计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-10" value="钢筋计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-8" value="锚索测力计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-5">
+          <mxGeometry y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-11" value="隧洞明渠流量计" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;verticalAlign=middle;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="BfGoeHZrsXy_JLZyjrRE-1">
+          <mxGeometry x="460" y="780" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-14" value="老石坎水库原有设备" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=1;align=center;verticalAlign=middle;" vertex="1" parent="BfGoeHZrsXy_JLZyjrRE-1">
+          <mxGeometry x="240" y="740" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-15" value="水位计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-14">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-16" value="水质站" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-14">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-17" value="流量计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-14">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-18" value="雨量站" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-14">
+          <mxGeometry y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-19" value="库区视频" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-14">
+          <mxGeometry y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-23" value="老石坎水库" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=1;align=center;verticalAlign=middle;" vertex="1" parent="BfGoeHZrsXy_JLZyjrRE-1">
+          <mxGeometry x="450" y="850" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-24" value="水位计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-23">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-25" value="闸门开度仪" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-23">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-26" value="监控摄像头" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-23">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-32" value="赋石水库" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=1;align=center;verticalAlign=middle;" vertex="1" parent="BfGoeHZrsXy_JLZyjrRE-1">
+          <mxGeometry x="590" y="850" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-33" value="水位计" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-32">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-34" value="闸门开度仪" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-32">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2US9WIb1ggIvMBdLX6Yu-35" value="监控摄像头" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2US9WIb1ggIvMBdLX6Yu-32">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
