@@ -1,11 +1,11 @@
-<mxfile modified="2021-11-17T05:49:56.001Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="ZmpykvoEYIYz60KgyHjg" version="15.7.4" type="github">
+<mxfile modified="2021-11-17T07:18:29.203Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="M8Fo_KdotBuDLJOAplvS" version="15.7.4" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2286" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-1" value="海康平台服务器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.1u_2u_server;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-780" y="224.95" width="100" height="39.1" as="geometry" />
+          <mxGeometry x="-575" y="364.95" width="100" height="39.1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-12" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-3" target="6t8R1jk7SkUZZnwaCm5m-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -23,40 +23,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-3" value="S5720s交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L3.svg;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-950" y="219" width="74.4" height="51" as="geometry" />
+          <mxGeometry x="-745" y="359" width="74.4" height="51" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-4" value="单兵" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/retro-items-4/64/Mobile_Phone-128.png;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-1100" y="130" width="50" height="50" as="geometry" />
+          <mxGeometry x="-895" y="270" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-5" value="布控球" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-1100" y="220" width="54" height="50" as="geometry" />
+          <mxGeometry x="-895" y="360" width="54" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-6" value="无人机" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/innovation-technology-1/512/tech_0011-128.png;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-1115" y="311" width="80" height="80" as="geometry" />
+          <mxGeometry x="-910" y="451" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-18" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.981;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-7" target="6t8R1jk7SkUZZnwaCm5m-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-7" value="PC终端" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-890" y="344" width="100" height="70" as="geometry" />
+          <mxGeometry x="-584" y="461" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-8" value="市应急管理局" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="80" width="142.46" height="89.75" as="geometry" />
+          <mxGeometry x="-626.46" y="135.12" width="142.46" height="89.75" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-23" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-20" target="6t8R1jk7SkUZZnwaCm5m-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-20" value="AR6120路由器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="526.63" width="55" height="36.5" as="geometry" />
+          <mxGeometry x="-680" y="646.63" width="55" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-21" value="天融信防火墙" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="519.38" width="60" height="51" as="geometry" />
+          <mxGeometry x="-550" y="639.38" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-25" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-24" target="6t8R1jk7SkUZZnwaCm5m-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-24" value="S5720s交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L3.svg;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="519.38" width="74.4" height="51" as="geometry" />
+          <mxGeometry x="-810" y="639.38" width="74.4" height="51" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-27" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-26" target="6t8R1jk7SkUZZnwaCm5m-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -65,16 +65,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-26" value="S5735s交换机" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-967.54" y="519.38" width="74.4" height="51" as="geometry" />
+          <mxGeometry x="-957.54" y="639.38" width="74.4" height="51" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-30" value="PC终端" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-1140" y="509.88" width="100" height="70" as="geometry" />
+          <mxGeometry x="-1130" y="629.88" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-33" style="edgeStyle=none;shape=link;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6t8R1jk7SkUZZnwaCm5m-32" target="6t8R1jk7SkUZZnwaCm5m-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t8R1jk7SkUZZnwaCm5m-32" value="海曙区大数据发展服务中心" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="500" width="142.46" height="89.75" as="geometry" />
+          <mxGeometry x="-410" y="620" width="142.46" height="89.75" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="A5tGBdbDUugx8dAlRGrQ-5" target="6t8R1jk7SkUZZnwaCm5m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-5" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="115" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="160" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;" vertex="1" parent="1">
+          <mxGeometry x="-807.8" y="160" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="160" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-7" value="避灾安置点监控网&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-923" y="240" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A5tGBdbDUugx8dAlRGrQ-8" value="可视化指挥调度网" style="swimlane;strokeColor=#000000;startSize=40;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="80" width="490" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
