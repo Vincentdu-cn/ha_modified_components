@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>税务知识 · Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ========== Design Tokens — Swiss Minimalism ==========
+   #1 Minimalism & Swiss Style + #50 Swiss Modernism 2.0
+   - Black/White + single accent only
+   - No gradients, no shadows (or very subtle)
+   - 12-column grid, mathematical spacing (8px base)
+   - WCAG AAA contrast
+   - Inter (sans) + Noto Serif SC (serif accent)
+========================================================= */
+:root {
+  /* Color — monochrome + single accent */
+  --ink:        #1a1a1a;
+  --ink-2:      #4a4a4a;
+  --ink-3:      #8a8a8a;
+  --ink-4:      #c8c8c8;
+  --paper:      #fafaf8;
+  --paper-2:    #f0efec;
+  --line:       #e2e0dc;
+  --accent:     #2d6a4f;   /* single accent: deep forest green */
+  --accent-bg:  #e8f0ec;
+  --correct:    #2d6a4f;
+  --wrong:      #b5392c;
+  --wrong-bg:   #f5e8e6;
+
+  /* Type scale — mathematical, 1.25 ratio */
+  --t-xs:   12px;
+  --t-sm:   14px;
+  --t-base: 16px;
+  --t-md:   20px;
+  --t-lg:   25px;
+  --t-xl:   31px;
+  --t-2xl:  39px;
+  --t-3xl:  49px;
+  --t-4xl:  61px;
+
+  /* Spacing — 8px base unit */
+  --s-1:  8px;
+  --s-2:  16px;
+  --s-3:  24px;
+  --s-4:  32px;
+  --s-5:  48px;
+  --s-6:  64px;
+  --s-7:  96px;
+
+  --font-sans:  'Inter', 'Noto Sans SC', system-ui, sans-serif;
+  --font-serif: 'Noto Serif SC', Georgia, serif;
+
+  --radius: 2px;     /* Swiss: sharp, minimal rounding */
+  --transition: 200ms ease;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--t-base);
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+  min-height: 100vh;
+}
+
+/* ========== Layout — 12-column grid, max-width container ========== */
+#app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--s-6) var(--s-3) var(--s-7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========== Shared Elements ========== */
+.eyebrow {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.divider {
+  width: 40px;
+  height: 1px;
+  background: var(--ink);
+  margin: var(--s-2) 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  padding: 14px 36px;
+  font-family: var(--font-sans);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  text-decoration: none;
+}
+.btn:hover { background: var(--accent); border-color: var(--accent); }
+.btn:active { transform: translateY(1px); }
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+}
+.btn-ghost:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+/* ========== Start Screen ========== */
+.start {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.start .eyebrow { margin-bottom: var(--s-3); }
+.start h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(var(--t-3xl), 8vw, var(--t-4xl));
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--s-3);
+}
+.start h1 .accent { color: var(--accent); font-style: italic; }
+.start .sub {
+  font-size: var(--t-md);
+  color: var(--ink-2);
+  line-height: 1.6;
+  max-width: 480px;
+  margin-bottom: var(--s-5);
+}
+.start .meta {
+  display: flex;
+  gap: var(--s-5);
+  margin-bottom: var(--s-5);
+  padding: var(--s-3) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  width: 100%;
+}
+.start .meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.start .meta-item .num {
+  font-size: var(--t-xl);
+  font-weight: 700;
+  font-family: var(--font-sans);
+  color: var(--ink);
+}
+.start .meta-item .num.accent { color: var(--accent); }
+.start .meta-item .label {
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ========== Quiz Screen ========== */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s-5);
+  padding-bottom: var(--s-2);
+  border-bottom: 1px solid var(--line);
+}
+.quiz-header .brand {
+  font-family: var(--font-serif);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--ink);
+}
+.quiz-header .brand .dot { color: var(--accent); }
+.quiz-back {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+.quiz-back:hover { color: var(--ink); }
+
+.quiz-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--s-2);
+}
+.quiz-meta .counter {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.quiz-meta .counter .current {
+  font-size: var(--t-lg);
+  font-weight: 700;
+  color: var(--ink);
+}
+.quiz-meta .type-tag {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.progress-bar {
+  height: 2px;
+  background: var(--line);
+  margin-bottom: var(--s-5);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--ink);
+  transition: width 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Question */
+.q-card { animation: fadeUp 400ms ease-out; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+.q-text {
+  font-family: var(--font-serif);
+  font-size: var(--t-xl);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-bottom: var(--s-5);
+  letter-spacing: -0.01em;
+}
+
+/* Options */
+.q-options { display: flex; flex-direction: column; gap: 0; }
+.q-option {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-2);
+  padding: var(--s-3) var(--s-2);
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+}
+.q-option:first-child { border-top: 1px solid var(--line); }
+.q-option:hover { background: var(--paper-2); padding-left: var(--s-3); }
+.q-option.selected {
+  background: var(--accent-bg);
+}
+.q-option.selected .opt-marker {
+  background: var(--accent);
+  color: var(--paper);
+  border-color: var(--accent);
+}
+.q-option.correct {
+  background: var(--accent-bg);
+}
+.q-option.correct .opt-marker {
+  background: var(--correct);
+  color: var(--paper);
+  border-color: var(--correct);
+}
+.q-option.correct .opt-text { font-weight: 600; color: var(--correct); }
+.q-option.wrong {
+  background: var(--wrong-bg);
+}
+.q-option.wrong .opt-marker {
+  background: var(--wrong);
+  color: var(--paper);
+  border-color: var(--wrong);
+}
+.q-option.wrong .opt-text { color: var(--wrong); }
+.q-option.disabled { cursor: default; }
+.q-option.disabled:hover { padding-left: var(--s-2); background: transparent; }
+.q-option.disabled.correct:hover,
+.q-option.disabled.wrong:hover { background: var(--accent-bg); }
+.q-option.disabled.wrong:hover { background: var(--wrong-bg); }
+
+.opt-marker {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--ink-4);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--ink-2);
+  transition: var(--transition);
+  font-family: var(--font-sans);
+  margin-top: 1px;
+}
+.opt-text {
+  font-size: var(--t-base);
+  line-height: 1.6;
+  color: var(--ink);
+  flex: 1;
+  padding-top: 3px;
+}
+
+.opt-icon {
+  position: absolute;
+  right: var(--s-2);
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 200ms;
+}
+.q-option.correct .opt-icon, .q-option.wrong .opt-icon { opacity: 1; }
+
+/* Explanation */
+.q-explanation {
+  margin-top: var(--s-4);
+  padding: var(--s-3) var(--s-3) var(--s-3) var(--s-4);
+  border-left: 3px solid var(--accent);
+  background: var(--paper-2);
+  animation: fadeIn 300ms ease-out;
+}
+.q-explanation.wrong { border-left-color: var(--wrong); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.exp-label {
+  font-size: var(--t-xs);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--s-1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.q-explanation.wrong .exp-label { color: var(--wrong); }
+.exp-text {
+  font-size: var(--t-sm);
+  line-height: 1.8;
+  color: var(--ink-2);
+}
+
+/* Actions */
+.q-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--s-5);
+}
+
+/* ========== Result Screen ========== */
+.result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  animation: fadeUp 500ms ease-out;
+}
+.result .eyebrow { margin-bottom: var(--s-2); }
+.result-score {
+  font-family: var(--font-serif);
+  font-size: clamp(80px, 18vw, 140px);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+  margin-bottom: var(--s-1);
+}
+.result-score .total {
+  font-size: 0.35em;
+  color: var(--ink-3);
+  font-weight: 400;
+  vertical-align: super;
+}
+.result-score.accent { color: var(--accent); }
+.result-grade {
+  font-size: var(--t-md);
+  color: var(--ink-2);
+  margin-bottom: var(--s-4);
+}
+.result-grade .badge {
+  display: inline-block;
+  padding: 2px 12px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: var(--t-sm);
+  border-radius: var(--radius);
+  margin-left: var(--s-1);
+}
+
+.result-stats {
+  display: flex;
+  gap: var(--s-5);
+  margin-bottom: var(--s-5);
+  padding: var(--s-3) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  width: 100%;
+}
+.result-stats .stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.result-stats .stat-val {
+  font-size: var(--t-xl);
+  font-weight: 700;
+}
+.result-stats .stat-val.ok { color: var(--accent); }
+.result-stats .stat-val.no { color: var(--wrong); }
+.result-stats .stat-label {
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.result-actions { display: flex; gap: var(--s-2); }
+
+/* ========== Toast ========== */
+.toast {
+  position: fixed;
+  bottom: var(--s-5);
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  padding: 12px 24px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--t-sm);
+  font-weight: 500;
+  border-radius: var(--radius);
+  z-index: 1000;
+  transition: transform 300ms ease-out;
+  pointer-events: none;
+  letter-spacing: 0.02em;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+.toast.ok { background: var(--accent); }
+.toast.no { background: var(--wrong); }
+
+/* ========== Footer ========== */
+.footer {
+  margin-top: auto;
+  padding-top: var(--s-5);
+  font-size: var(--t-xs);
+  color: var(--ink-4);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ========== Accessibility ========== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+button:focus-visible, .q-option:focus-visible, .btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  #app { padding: var(--s-4) var(--s-2) var(--s-6); }
+  .start .meta { flex-wrap: wrap; gap: var(--s-3); }
+  .q-text { font-size: var(--t-lg); }
+  .result-stats { flex-wrap: wrap; gap: var(--s-3); }
+}
+@media (max-width: 375px) {
+  .start h1 { font-size: var(--t-2xl); }
+  .q-text { font-size: var(--t-md); }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--ink-4); }
+</style>
+</head>
+<body>
+
+<div id="app"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ========== Question Bank ==========
+const QUESTIONS = [
+  {
+    type: 'single',
+    q: '下列各项中，属于增值税征税范围的是？',
+    options: ['销售不动产', '员工为本单位提供取得工资的服务', '存款利息', '保险赔偿金'],
+    answer: [0],
+    explanation: '根据《营业税改征增值税试点实施办法》，销售不动产属于增值税征税范围。员工为本单位提供取得工资的服务、存款利息、保险赔偿金均属于不征收增值税项目。'
+  },
+  {
+    type: 'single',
+    q: '目前增值税一般纳税人的标准是年应征增值税销售额超过多少万元？',
+    options: ['50万元', '100万元', '500万元', '1000万元'],
+    answer: [2],
+    explanation: '根据现行规定，增值税一般纳税人是指年应征增值税销售额超过500万元的纳税人。该标准自2018年5月1日起执行。'
+  },
+  {
+    type: 'multi',
+    q: '下列哪些项目免征增值税？（多选）',
+    options: ['农业生产者销售的自产农产品', '避孕药品和用具', '直接用于科学研究的进口仪器', '高档化妆品'],
+    answer: [0, 1, 2],
+    explanation: '根据《增值税暂行条例》第十五条规定，农业生产者销售的自产农产品、避孕药品和用具、直接用于科学研究、科学试验和教学的进口仪器、设备均免征增值税。高档化妆品属于消费税征税范围，不免征增值税。'
+  },
+  {
+    type: 'judge',
+    q: '小规模纳税人发生增值税应税销售行为，适用简易计税方法计税。',
+    options: ['正确', '错误'],
+    answer: [0],
+    explanation: '正确。根据增值税相关规定，小规模纳税人发生应税销售行为适用简易计税方法，按照销售额和征收率计算应纳税额，不得抵扣进项税额。目前征收率为3%（部分业务减按1%）。'
+  },
+  {
+    type: 'single',
+    q: '企业所得税的基本税率为？',
+    options: ['15%', '20%', '25%', '30%'],
+    answer: [2],
+    explanation: '企业所得税的基本税率为25%。符合条件的小型微利企业适用20%税率（实际有效税率更低），国家重点扶持的高新技术企业适用15%税率。'
+  },
+  {
+    type: 'multi',
+    q: '下列各项中，在计算企业所得税应纳税所得额时不得扣除的项目有？（多选）',
+    options: ['向投资者支付的股息红利', '税收滞纳金', '企业发生的合理的工资薪金支出', '赞助支出'],
+    answer: [0, 1, 3],
+    explanation: '根据《企业所得税法》第十条规定，向投资者支付的股息红利等权益性投资收益款项、税收滞纳金、赞助支出等不得在税前扣除。企业发生的合理的工资薪金支出准予扣除。'
+  },
+  {
+    type: 'judge',
+    q: '个人取得的国债利息收入免征个人所得税。',
+    options: ['正确', '错误'],
+    answer: [0],
+    explanation: '正确。根据《个人所得税法》第四条规定，国债和国家发行的金融债券利息免征个人所得税。'
+  },
+  {
+    type: 'single',
+    q: '个人所得税综合所得的年度汇算清缴时间为次年几月几日内？',
+    options: ['3月1日至6月30日', '1月1日至3月31日', '3月1日至5月31日', '4月1日至6月30日'],
+    answer: [0],
+    explanation: '居民个人取得的综合所得，按年计算个人所得税，需要在次年3月1日至6月30日内办理汇算清缴。'
+  },
+  {
+    type: 'multi',
+    q: '下列属于个人所得税专项附加扣除项目的有？（多选）',
+    options: ['子女教育', '继续教育', '大病医疗', '偶然所得'],
+    answer: [0, 1, 2],
+    explanation: '个人所得税专项附加扣除包括：子女教育、继续教育、大病医疗、住房贷款利息、住房租金、赡养老人、3岁以下婴幼儿照护七项。偶然所得属于个人所得税的税目分类，不是专项附加扣除项目。'
+  },
+  {
+    type: 'judge',
+    q: '房产税的计税依据只有房产原值一种方式。',
+    options: ['正确', '错误'],
+    answer: [1],
+    explanation: '错误。房产税的计税依据分为两种：一是从价计征，按房产原值一次减除10%-30%后的余值计征，税率为1.2%；二是从租计征，按房产租金收入计征，税率为12%。'
+  },
+  {
+    type: 'single',
+    q: '印花税的纳税人是？',
+    options: ['合同的担保人', '合同的订立人', '合同的见证人', '合同的审批人'],
+    answer: [1],
+    explanation: '印花税的纳税人是在中国境内书立、领受应税凭证的单位和个人，即合同的订立人。担保人、见证人、审批人均不是印花税纳税人。'
+  },
+  {
+    type: 'multi',
+    q: '下列各项中，属于车辆购置税征税范围的有？（多选）',
+    options: ['汽车', '有轨电车', '汽车挂车', '自行车'],
+    answer: [0, 1, 2],
+    explanation: '车辆购置税的征税范围包括汽车、有轨电车、汽车挂车、排气量超过一百五十毫升的摩托车。自行车不属于车辆购置税征税范围。'
+  },
+  {
+    type: 'judge',
+    q: '城镇土地使用税以纳税人实际占用的土地面积为计税依据。',
+    options: ['正确', '错误'],
+    answer: [0],
+    explanation: '正确。城镇土地使用税以纳税人实际占用的土地面积为计税依据，依照规定税额计算征收。'
+  },
+  {
+    type: 'single',
+    q: '消费税中，白酒的税率采用什么形式？',
+    options: ['比例税率', '定额税率', '比例税率加定额税率（复合计征）', '超率累进税率'],
+    answer: [2],
+    explanation: '白酒消费税采用复合计征方式：比例税率为20%，加0.5元/500克的定额税率。目前只有白酒和卷烟两类产品采用复合计征。'
+  },
+  {
+    type: 'multi',
+    q: '下列哪些情形可以申请税收减免？（多选）',
+    options: ['自然灾害导致重大损失', '高新技术企业研发投入', '小微企业月销售额未达起征点', '企业正常经营盈利'],
+    answer: [0, 1, 2],
+    explanation: '税收减免适用于法定情形：因自然灾害等不可抗力导致重大损失的可申请减免；高新技术企业享受15%优惠税率；小规模纳税人月销售额未达起征点免征增值税。企业正常经营盈利不属于减免情形。'
+  }
+];
+
+// ========== State ==========
+let state = {
+  screen: 'start',
+  currentIdx: 0,
+  answers: [],
+  selected: [],
+  revealed: false,
+  score: 0,
+};
+
+// ========== Helpers ==========
+const app = () => document.getElementById('app');
+
+function toast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show ' + type;
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.className = 'toast ' + type; }, 2200);
+}
+
+function typeLabel(type) {
+  return { single: '单选题', multi: '多选题', judge: '判断题' }[type];
+}
+
+function arraysEqual(a, b) {
+  if (a.length !== b.length) return false;
+  return a.every((v, i) => v === b[i]);
+}
+
+// SVG icons (Lucide-style, no emoji)
+const ICON_CHECK = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>';
+const ICON_CLOSE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
+const ICON_ARROW = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>';
+
+// ========== Render ==========
+function render() {
+  const s = state.screen;
+  if (s === 'start') renderStart();
+  else if (s === 'quiz') renderQuiz();
+  else if (s === 'result') renderResult();
+}
+
+function renderStart() {
+  const multiCount = QUESTIONS.filter(q => q.type === 'multi').length;
+  app().innerHTML = `
+    <div class="start">
+      <div class="eyebrow">Tax Knowledge Quiz</div>
+      <h1>税务知识<br><span class="accent">竞答</span></h1>
+      <div class="divider"></div>
+      <p class="sub">涵盖增值税、企业所得税、个人所得税、房产税、消费税等核心税种，共十五题，检验你的税法基础。</p>
+      <div class="meta">
+        <div class="meta-item">
+          <div class="num">${QUESTIONS.length}</div>
+          <div class="label">题目</div>
+        </div>
+        <div class="meta-item">
+          <div class="num accent">${multiCount}</div>
+          <div class="label">多选</div>
+        </div>
+        <div class="meta-item">
+          <div class="num">5</div>
+          <div class="label">税种</div>
+        </div>
+      </div>
+      <button class="btn" onclick="startQuiz()">
+        开始答题
+        ${ICON_ARROW}
+      </button>
+      <div class="footer">© 2026 Tax Quiz · 仅用于学习</div>
+    </div>
+  `;
+}
+
+function startQuiz() {
+  state = { screen: 'quiz', currentIdx: 0, answers: [], selected: [], revealed: false, score: 0 };
+  render();
+}
+
+function renderQuiz() {
+  const idx = state.currentIdx;
+  const q = QUESTIONS[idx];
+  const progress = ((idx) / QUESTIONS.length) * 100;
+
+  app().innerHTML = `
+    <div class="quiz-header">
+      <div class="brand">税务竞答<span class="dot">.</span></div>
+      <button class="quiz-back" onclick="goBack()">退出</button>
+    </div>
+
+    <div class="quiz-meta">
+      <div class="counter"><span class="current">${String(idx + 1).padStart(2, '0')}</span> / ${String(QUESTIONS.length).padStart(2, '0')}</div>
+      <div class="type-tag">${typeLabel(q.type)}</div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+
+    <div class="q-card">
+      <div class="q-text">${q.q}</div>
+      <div class="q-options" id="options">
+        ${q.options.map((opt, i) => `
+          <div class="q-option" data-idx="${i}" tabindex="0" role="button" aria-label="选项 ${String.fromCharCode(65 + i)}" onclick="selectOption(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();selectOption(${i})}">
+            <div class="opt-marker">${String.fromCharCode(65 + i)}</div>
+            <div class="opt-text">${opt}</div>
+            <div class="opt-icon" style="color:var(--correct)">${ICON_CHECK}</div>
+          </div>
+        `).join('')}
+      </div>
+      <div id="exp-slot"></div>
+      <div class="q-actions" id="actions">
+        ${state.revealed
+          ? `<button class="btn" onclick="nextQuestion()">${idx + 1 < QUESTIONS.length ? '下一题' : '查看结果'} ${ICON_ARROW}</button>`
+          : `<button class="btn" onclick="submitAnswer()">提交答案</button>`
+        }
+      </div>
+    </div>
+  `;
+
+  if (state.revealed) showExplanation();
+  else {
+    state.selected.forEach(i => {
+      const el = document.querySelector(`.q-option[data-idx="${i}"]`);
+      if (el) el.classList.add('selected');
+    });
+  }
+}
+
+function selectOption(i) {
+  if (state.revealed) return;
+  const q = QUESTIONS[state.currentIdx];
+  if (q.type === 'multi') {
+    if (state.selected.includes(i)) state.selected = state.selected.filter(x => x !== i);
+    else state.selected.push(i);
+  } else {
+    state.selected = [i];
+  }
+  document.querySelectorAll('.q-option').forEach(el => el.classList.remove('selected'));
+  state.selected.forEach(idx => {
+    const el = document.querySelector(`.q-option[data-idx="${idx}"]`);
+    if (el) el.classList.add('selected');
+  });
+}
+
+function submitAnswer() {
+  if (state.selected.length === 0) { toast('请先选择答案'); return; }
+  const q = QUESTIONS[state.currentIdx];
+  const isCorrect = arraysEqual([...state.selected].sort((a,b)=>a-b), [...q.answer].sort((a,b)=>a-b));
+  state.answers[state.currentIdx] = [...state.selected];
+  state.revealed = true;
+
+  document.querySelectorAll('.q-option').forEach(el => {
+    el.classList.add('disabled');
+    el.classList.remove('selected');
+    const idx = parseInt(el.dataset.idx);
+    const iconEl = el.querySelector('.opt-icon');
+    if (q.answer.includes(idx)) {
+      el.classList.add('correct');
+    } else if (state.selected.includes(idx)) {
+      el.classList.add('wrong');
+      if (iconEl) { iconEl.innerHTML = ICON_CLOSE; iconEl.style.color = 'var(--wrong)'; }
+    }
+  });
+
+  if (isCorrect) {
+    const pts = q.type === 'multi' ? 2 : 1;
+    state.score += pts;
+    toast(`正确 +${pts}`, 'ok');
+  } else {
+    toast('回答错误', 'no');
+  }
+
+  showExplanation();
+  document.getElementById('actions').innerHTML =
+    `<button class="btn" onclick="nextQuestion()">${state.currentIdx + 1 < QUESTIONS.length ? '下一题' : '查看结果'} ${ICON_ARROW}</button>`;
+}
+
+function showExplanation() {
+  const q = QUESTIONS[state.currentIdx];
+  const isCorrect = state.answers[state.currentIdx] &&
+    arraysEqual([...state.answers[state.currentIdx]].sort((a,b)=>a-b), [...q.answer].sort((a,b)=>a-b));
+  const slot = document.getElementById('exp-slot');
+  if (!slot) return;
+  slot.innerHTML = `
+    <div class="q-explanation ${isCorrect ? '' : 'wrong'}">
+      <div class="exp-label">
+        ${isCorrect ? ICON_CHECK : ICON_CLOSE}
+        ${isCorrect ? '正确 · 解析' : '错误 · 解析'}
+      </div>
+      <div class="exp-text">${q.explanation}</div>
+    </div>
+  `;
+}
+
+function nextQuestion() {
+  if (state.currentIdx + 1 < QUESTIONS.length) {
+    state.currentIdx++;
+    state.selected = [];
+    state.revealed = false;
+    render();
+  } else {
+    state.screen = 'result';
+    render();
+  }
+}
+
+function goBack() { state.screen = 'start'; render(); }
+
+function renderResult() {
+  const correct = state.answers.filter((a, i) => a && arraysEqual([...a].sort((a,b)=>a-b), [...QUESTIONS[i].answer].sort((a,b)=>a-b))).length;
+  const wrong = QUESTIONS.length - correct;
+  const maxScore = QUESTIONS.reduce((s, q) => s + (q.type === 'multi' ? 2 : 1), 0);
+  const percent = Math.round((state.score / maxScore) * 100);
+
+  let grade;
+  if (percent >= 90) grade = '优秀';
+  else if (percent >= 70) grade = '良好';
+  else if (percent >= 50) grade = '及格';
+  else grade = '需努力';
+
+  const accentClass = percent >= 70 ? 'accent' : '';
+
+  app().innerHTML = `
+    <div class="result">
+      <div class="eyebrow">结果</div>
+      <div class="result-score ${accentClass}">${state.score}<span class="total">/${maxScore}</span></div>
+      <div class="result-grade">${grade} · 正确率 ${percent}% <span class="badge">${grade}</span></div>
+      <div class="divider"></div>
+      <div class="result-stats">
+        <div class="stat-item">
+          <div class="stat-val ok">${correct}</div>
+          <div class="stat-label">答对</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val no">${wrong}</div>
+          <div class="stat-label">答错</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">${QUESTIONS.length}</div>
+          <div class="stat-label">总题数</div>
+        </div>
+      </div>
+      <div class="result-actions">
+        <button class="btn btn-ghost" onclick="goBack()">返回首页</button>
+        <button class="btn" onclick="startQuiz()">再来一次 ${ICON_ARROW}</button>
+      </div>
+      <div class="footer">© 2026 Tax Quiz · 仅用于学习</div>
+    </div>
+  `;
+}
+
+// ========== Init ==========
+render();
+</script>
+</body>
+</html>
